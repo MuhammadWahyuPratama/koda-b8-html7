@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Calculator ui</title>
 </head>
 <body>
     <div class="calculator">
         <div class="darkmood">
             <div class="bttn"><button></button></div>
         </div>
-        <div class="display">
-            203,908
+        <div class="display" id="display">
+            0
         </div>
 
         <div class="del">DEL</div>
+        <div class="edisi">Limited edition</div>
         <div class="buttons">
         <button>7</button>
         <button>8</button>
@@ -35,7 +37,11 @@
         <button>.</button>
         <button class="nol">0</button>
         <button class="math">+</button>
+        <button class="equal">=</button>
+        
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -10,6 +10,7 @@
     padding:20px;
     border-radius:20px;
     margin:50px auto;
+    border: 5px solid red;
 }
 
 .display{
@@ -30,8 +31,8 @@
     margin-left: 220px;
     width: 80px;
     height: 30px;
-    background-color: #ff4fa1;
-    border: 1px solid #ff4fa1;
+    background-color: hsl(0, 100%, 50%);
+    border: 1px solid #ff0000;
     border-radius: 12px;
 }
 .bttn{
@@ -43,22 +44,32 @@
     background-color: white;
     border-radius: 166666666px;
 }
+.edisi{
+    color: gold;
+    padding-bottom:10px;
+    font-family:monospace;
+}
 
 .del{
+    border-top:1px solid grey;
     height: 60px;
     color: white;
     font-size: 30px;
     font-weight: 600;
     display: grid;
     grid-column-end: 2 ;
-    padding-left:237px ;
+    padding-left:228px ;
+    padding-top:20px;
+    cursor: pointer;
 }
+
 button{
     height:60px;
     border:none;
     border-radius:8px;
-    background:#262742;
-    color:white;
+    /* background:#262742; */
+    box-shadow: 20px solid #2b00ff;
+    color:rgb(26, 21, 21);
     font-size:24px;
     -webkit-border-radius:8px;
     -moz-border-radius:8px;
@@ -70,9 +81,14 @@ button:hover{
 }
 
 .math{
-    background:#ff4fa1;
+    background:#2b00ff;
 }
 
 .nol{
     grid-column:span 2;
+}
+
+.equal{
+    grid-column: span 4;
+    background:#2b00ff;
 }
