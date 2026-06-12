@@ -4,6 +4,14 @@
     box-sizing:border-box;
 }
 
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    padding: 10px;
+}
+
 .calculator{
     width:340px;
     background:#181527;
@@ -28,7 +36,7 @@
     gap:10px;
 }
 .darkmood{
-    margin-left: 220px;
+    margin-left: auto;
     width: 80px;
     height: 30px;
     background-color: hsl(0, 100%, 50%);
@@ -91,4 +99,54 @@ button:hover{
 .equal{
     grid-column: span 4;
     background:#2b00ff;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .navbar h1{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .calculator{
+        width:90%;
+        max-width:340px;
+        margin:30px auto;
+        padding:18px;
+    }
+
+    .display{
+        height:140px;
+        line-height:140px;
+        font-size:42px;
+        padding-right:15px;
+    }
+
+    .darkmood{
+        width:70px;
+        height:28px;
+        margin-left:auto;
+    }
+
+    .bttn{
+        width:14px;
+        height:14px;
+        margin-left:35px;
+    }
+
+    .del{
+        font-size:24px;
+        padding-left:0;
+        padding-top:18px;
+        text-align:right;
+        padding-right:10px;
+    }
+
+    button{
+        height:55px;
+        font-size:22px;
+    }
+
 }
